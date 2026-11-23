@@ -1,0 +1,8 @@
+Linux Commands:
+
+whoami - it tells you which user is currently logged in.
+pwd - Where am I currently standing inside the Linux filesystem?
+date - Displays the current date and time.
+uname -a - Displays information about your Linux kernel and system.
+clear - Clears the terminal screen.
+
