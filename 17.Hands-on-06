@@ -1,0 +1,39 @@
+Disk and memory monitoring
+Let's create a small monitoring report.
+Create a project folder
+mkdir -p ~/projects/devops/resource-monitor
+cd ~/projects/devops/resource-monitor
+Create a monitoring script
+vim mointor.sh
+#!/bin/bash
+
+echo "===== SYSTEM RESOURCE REPORT ====="
+
+echo ""
+echo "DATE AND TIME:"
+date
+
+echo ""
+echo "DISK USAGE:"
+df -h
+
+echo ""
+echo "MEMORY USAGE:"
+free -h
+
+echo ""
+echo "CPU INFORMATION:"
+nproc
+
+echo ""
+echo "TOP 5 PROCESSES:"
+ps aux --sort=-%cpu | head -n 6
+
+echo ""
+echo "===== REPORT COMPLETE ====="
+
+chmod +x monitor.sh
+./monitor.sh
+
+This is the beginning of automation used in real DevOps environments.
+
