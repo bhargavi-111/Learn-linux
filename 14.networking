@@ -1,0 +1,41 @@
+what is networking?
+Networking means connecting computers so they can communicate and exchange information.	
+
+Understand five important concepts
+Ip address - An address used to identify a device on a network. Example: 192.168.1.10.
+Port - A number identifying a network service. For example, HTTP commonly uses port 80, HTTPS uses 443, and SSH uses 22.
+DNS - Translates domain names such as google.com into IP addresses.
+Client and server  - A client requests something; a server responds. Your browser is a client when it requests a webpage.
+TCP and UDP - TCP provides reliable, ordered communication. UDP sends datagrams without the same delivery guarantees
+
+ip addr - Check your IP addresses
+ip link - his displays your network interfaces and their state.
+ip route - A routing table helps Linux decide where to send network traffic.
+ping -c 4 8.8.8.8 - Test connectivity
+nslookup checks DNS resolution.
+
+network ports:
+SSH	        22
+HTTP / Nginx	80
+HTTPS	        443
+MySQL	        3306
+PostgreSQL	5432
+
+Common HTTP status codes:
+Code	Meaning
+200	Success
+301	Redirect
+400	Bad request
+401	Unauthorized
+403	Forbidden
+404	Not found
+500	Internal server error
+502	Bad gateway
+503	Service unavailable
+
+These codes are extremely useful when troubleshooting application deployments.
+
+SSH means Secure Shell.
+
+It allows you to securely connect to another Linux computer over a network.
+
