@@ -1,0 +1,53 @@
+Why do Linux permissions exist?
+
+Would you allow everyone to access and modify everything?
+
+Of course not!
+
+Linux uses permissions to control who can:
+1. Read a file.
+2. Modify a file.
+3. Execute a file.
+This is called Linux File Permissions.
+
+Linux has three basic permissions.
+Symbol	Permission	Meaning
+r	Read	View file contents
+w	Write	Modify file contents
+x	Execute	Run a file as a program or script
+
+Think of a document:
+- Read: You can open and view it.
+- Write: You can edit it.
+- Execute: You can run it if it's an executable program or script.
+
+Linux permissions apply to three categories.
+Symbol	Category	Meaning
+u	User	File owner
+g	Group	Users belonging to the file's group
+o	Others	Everyone else
+
+The first character indicates the file type.
+-rwxr-xr--
+- - = Regular file.
+- d = Directory.
+- l = Symbolic link.
+
+Understanding chmod
+This is one of the most important Linux commands.
+
+chmod means Change Mode.
+
+It changes file and directory permissions.
+
+Understanding numeric permissions
+Permission	Number
+Read (r)	4
+Write (w)	2
+Execute (x)	1
+
+Understanding chown
+chown means Change Owner.
+Change ownership recursively: chown -R
+Be careful with recursive ownership changes. They affect everything inside the target directory.
+
