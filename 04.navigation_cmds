@@ -1,0 +1,10 @@
+In Linux, everything starts from one main directory called / (root).
+
+/	Main filesystem directory
+/home	Users' personal directories
+/root	Root administrator's home
+/etc	System configuration files
+/var	Logs and changing application data
+/tmp	Temporary files
+/bin	Essential command programs
+/dev	Device files
