@@ -1,0 +1,30 @@
+What is Operating System(OS) ?
+Imagine you buy a laptop
+it has:
+Keyboard
+Screen
+Processor
+Hard disk
+RAM
+
+AS a user how to communicate with Hardware.
+Here , OS(Operating system) came it acts as a bridge between user and the applications and its hardware.
+
+How its works?
+for exmaple imagine a restaurant
+Customer=you
+Waiter=OS
+Kitchen=Hardware
+Food=Result
+
+You tell the waiter what you want.
+
+The waiter communicates with the kitchen and brings your food.
+
+Similarly, you request something from your computer. The OS communicates with the hardware and gives you the result.
+
+Examples:
+Linux
+Windows
+Andriod
+Mac Os
