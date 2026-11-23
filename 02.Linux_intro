@@ -22,6 +22,26 @@ For example:
 - Deploying applications.
 - Starting and stopping services.
 - Managing users.
-- Checking server health.
+i- Checking server health.
 - Troubleshooting application failures.
-- Automating repetitive tasks.
+- Automating repetitive tasks
+
+Linux Distribution:
+Linux itself is the kernel, package the kernel with other software and tools to create a complete operating system.
+
+These packages are called Linux distributions, or simply distros.
+For example:
+
+Think of Linux as the engine of a car.
+
+Different manufacturers use engines in different vehicles.
+
+Similarly, different Linux distributions use the Linux kernel with different tools and configurations.
+
+How does linux works?
+There are five important layers:
+1. Hardware: CPU, RAM, hard disk and network devices.
+2. Kernel: Manages hardware, memory, processes and devices.
+3. System libraries: Help applications interact with system functionality.
+4. Shell: Allows you to communicate with Linux using commands.
+5. Applications: Software running on Linux.
