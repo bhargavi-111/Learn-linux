@@ -1,0 +1,31 @@
+Linux Disk and Memory Management
+
+Disk — Storage
+Like a filing cabinet. It stores files, applications, logs and databases even after shutdown.
+
+RAM — Working memory
+Like your office desk. Applications use RAM while running. It is temporary memory.
+
+CPU — Processing power
+Like the worker performing calculations and executing instructions.
+
+Check disk space
+Your first important command:
+df -h
+What does it mean?
+- df = disk filesystem usage.
+- -h = human-readable format (GB, MB).
+du -sh ~ - Find which directory consumes space
+
+free -h - Check RAM usage
+lscpu - To see CPU information
+
+mounted filesystems
+A filesystem is a structure used to organize and store files.
+
+Linux connects storage devices to directories through a process called mounting.
+
+For example, a disk might be mounted at /data.
+
+Run:
+lsblk-This displays block devices and their partitions.
