@@ -1,0 +1,5 @@
+Fix a deployment script permission error
+
+you a deployment script and try to execute but linux displays.
+Permission denied
+
