@@ -1,0 +1,16 @@
+In Ubuntu, the package manager is called APT.
+- Package = software or application.
+- Repository = a trusted software collection.
+- APT = the tool that installs and manages packages.
+For example, instead of downloading Nginx manually, you can install it with one command.
+
+sudo apt update	        Refreshes the package list
+sudo apt upgrade	Upgrades installed software
+sudo apt install nginx	Installs Nginx
+sudo apt remove nginx	Removes Nginx
+sudo apt purge nginx	Removes Nginx and its system configuration files
+sudo apt autoremove	Removes unused dependencies
+apt search nginx	Searches for packages
+apt show nginx	        Shows package details
+nginx -v                verify the version
+curl http://localhost   Test you web server
