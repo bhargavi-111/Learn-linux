@@ -1,0 +1,27 @@
+What is Linux?
+
+Linux is open-source operating system kernel.
+
+open-source - source code is available for public to inspect,modify, and distribute under its license.
+kernel is coe part of OS.
+Linux manages communication between software and hardware.
+
+Why linux is important for DevOps?
+
+Imagine companies like Amazon, Netflix and Google.
+
+Their applications need computers (servers) that run 24 hours a day.
+
+These servers need an operating system that is reliable, flexible, secure and easy to automate.
+
+Linux is widely used for these workloads.
+
+As a DevOps engineer, you will frequently work with Linux servers.
+
+For example:
+- Deploying applications.
+- Starting and stopping services.
+- Managing users.
+- Checking server health.
+- Troubleshooting application failures.
+- Automating repetitive tasks.
