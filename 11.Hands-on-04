@@ -1,0 +1,7 @@
+Create a shared development environment
+
+Imagine your company has two developers.
+
+Both need access to the same project directory.
+
+Instead of giving everybody administrator access, you'll create a shared directory controlled by the developers group.
