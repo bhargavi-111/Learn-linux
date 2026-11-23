@@ -1,0 +1,43 @@
+Creates files & dir's:
+
+Create directories — mkdir
+Create nested directories: mkdir -p
+The -p option creates missing parent directories automatically.
+Create files — touch
+
+View files:
+
+ls	List files
+ls -l	Detailed listing
+ls -a	Include hidden files
+ls -lh	Human-readable file sizes
+ls -R	List recursively
+
+Copy files — cp
+
+Move/Rename files — mv
+
+Delete files — rm
+
+Delete an empty directory: rmdir
+
+Delete a directory and everything inside it: rm -r
+
+Forcefully delete: rm -rf
+
+Read file contents:
+
+cat	Display entire file
+less	Read long files page by page
+head	Display first 10 lines
+tail	Display last 10 lines
+tail -f	Follow a file as new lines arrive
+
+What does > mean?
+>-overwrite
+It redirects output into a file, replacing the previous contents.
+
+What does >> mean?
+>>-appends
+If you want to add more information without deleting the existing contents.
+
