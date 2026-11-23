@@ -1,0 +1,36 @@
+What is process?
+A process is a program that is currently running on your computer.
+
+Think about your Windows computer:
+- Chrome running = process.
+- VS Code running = process.
+- Music player running = process.
+Linux works the same way.
+
+Every process has a unique identification number called a PID (Process ID).
+For example:
+sleep 100
+This starts a process that waits for 100 seconds.
+ps Displays processes
+ps aux - Displays detailed process information
+top - Live process monitoring
+htop - nteractive process monitoring
+pgrep - Finds process IDs by name
+kill PID - Sends a signal to a process
+kill -9 PID - Forcefully terminates a process
+jobs - Lists background jobs in your shell
+&	Runs a command in the background
+
+what is service?
+A service is a program that usually runs in the background and provides functionality to the system or other applications.
+
+Process = a running program.
+Service = a program managed to provide a background function.
+systemctl is used to manage services on Linux systems using systemd.
+sudo systemctl start nginx	Starts Nginx
+sudo systemctl stop nginx	Stops Nginx
+sudo systemctl restart nginx	Restarts Nginx
+sudo systemctl status nginx	Checks Nginx status
+sudo systemctl enable nginx	Enables automatic startup
+sudo systemctl disable nginx	Disables automatic startup
+
