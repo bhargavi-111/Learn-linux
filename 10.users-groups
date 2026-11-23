@@ -1,0 +1,22 @@
+What is Linux User?
+A user is an account that allows someone or a service to interact with a Linux system.
+
+What is root?
+root is the superuser account have all privileges.
+
+uid - user ID
+gid - group ID
+Remember: UID 0 identifies the root superuser.
+
+whoami - Check your current username
+sudo adduser name - Create a new user
+sudo deluser name - delete a user
+id username - Verify the new user
+cat /etc/passwd - List local user accounts
+su - username - switch between Linux users
+sudo groupadd groupname - Create the group
+sudo groupdel groupname - delete the group
+getent group groupname - verify 
+sudo usermod -aG groupname username - Add a user to a group
+sudo gpasswd -d groupname username - Remove a user from a group
+
