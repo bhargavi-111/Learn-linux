@@ -1,0 +1,31 @@
+What are logs?
+A log is a record of events that happen inside a computer or application.
+
+These are examples of application log messages.
+Common log levels:
+Level	 Meaning
+DEBUG	 Detailed debugging information
+INFO	 Normal events
+WARNING	 Something unusual happened
+ERROR	 Something failed
+CRITICAL A serious failure
+
+example: If an application crashes, logs can reveal whether the cause was a database connection, missing configuration, permission problem, or insufficient memory.
+
+Where logs are stored in ?
+Linux commonly stores system logs in: /var/log/
+
+Log file	         Purpose
+/var/log/syslog	        system messages on Ubuntu
+/var/log/auth.log	Authentication and login events
+/var/log/kern.log	Kernel messages
+/var/log/dpkg.log	Package installation activity
+/var/log/apt/	        APT package manager logs
+/var/log/nginx/	        Nginx logs, if configured
+
+sudo cat /var/log/syslog - This displays the contents of the file.
+sudo tail /var/log/syslog - Display the last 10 lines
+sudo tail -n 50 /var/log/syslog - sudo tail -n 50 /var/log/syslog
+sudo tail -f /var/log/syslog - Monitor logs continuously
+sudo grep -i error /var/log/syslog - Search for errors
+
